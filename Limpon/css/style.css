@@ -117,6 +117,7 @@ h1 {
     padding: 20px 38px;
     border-radius: 30px;
     border: 1px solid #1085e4;
+    transition: 0.3s;
 }
 .btn-primary:hover {
     color: #1085e4;
@@ -132,6 +133,7 @@ h1 {
     padding: 20px 38px;
     border-radius: 30px;
     border: 1px solid #cbdbe8;
+    transition: 0.3s;
 }
 .btn-secondary:hover {
     background-color: #fff;
@@ -140,6 +142,8 @@ h1 {
     font-weight: 400;
     padding: 20px 52px;
     letter-spacing: 1.5px;
+    transition: 0.3s;
+}
 }
 .btn-info {
     color: #8085b1;
@@ -151,6 +155,8 @@ h1 {
     padding: 20px 38px;
     border-radius: 30px;
     text-transform: uppercase;
+    transition: 0.3s;
+}
 }
 .btn-info:hover {
     color: #fff;
@@ -202,10 +208,13 @@ h1 {
                         "e f g"
                         "e h h";
     max-width: 1110px;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
 }
 .grid-title {
     grid-area: a;
+    max-width: 250px;
 }
 .grid-item-1 {
     grid-area: b;
@@ -241,6 +250,8 @@ h1 {
 .grid-item {
     text-align: center;
     box-shadow: 0 0 5px #f4f4f4;
+    margin: 36px 0 -38px 0;
+    padding: 44px 0px 35px 0;
 }
 .grid-item h3 {
     font-size: 20px;
@@ -253,40 +264,41 @@ h1 {
     font-weight: 600;
     color: #1085e4;
 }
+.grid-item p {
+    max-width: 270px;
+    display: block;
+    margin: 10px auto;
+}
 .grid-icon {
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto 25px;
+    background-position: center;
+    height: 92px;
 }
 .grid-icon-1 {
     background-image: url(../img/icon2.png);
-    width: 73px;
-    height: 79px;
+    background-size: 73px 79px;
 }
 .grid-icon-2 {
     background-image: url(../img/icon3.png);
-    width: 89px;
-    height: 85px;
+    background-size: 89px 85px;
 }
 .grid-icon-3 {
     background-image: url(../img/icon1.png);
-    width: 79px;
-    height: 79px;
+    background-size: 79px 79px;
 }
 .grid-icon-4 {
     background-image: url(../img/icon4.png);
-    width: 103px;
-    height: 92px;
+    background-size: 103px 92px;
 }
 .grid-icon-5 {
     background-image: url(../img/icon5.png);
-    width: 85px;
-    height: 90px;
+    background-size: 85px 90px;
 }
 .grid-icon-6 {
     background-image: url(../img/icon6.png);
-    width: 100px;
-    height: 87px;
+    background-size: 100px 87px;
 }
 .list-stat {
     display: flex;
@@ -467,4 +479,7 @@ h1 {
     background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,119,205,1) 100%);
     background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,119,205,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2377cd', GradientType=1 );
+}
+.page-grid {
+    padding: 83px 0 129px 0;
 }
