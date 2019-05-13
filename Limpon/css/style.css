@@ -189,16 +189,19 @@ h1 {
     background-image: url(../img/company-2.png);
     flex-basis: 201px;
     height: 71px;
+    margin-top: -21px;
 }
 .company-three {
     background-image: url(../img/company-3.png);
     flex-basis: 204px;
     height: 50px;
+    margin-top: -16px;
 }
 .company-four {
     background-image: url(../img/company-4.png);
     flex-basis: 203px;
     height: 76px;
+    margin-top: -16px;
 }
 .grid {
     display: grid;
@@ -236,6 +239,15 @@ h1 {
 }
 .grid-text {
     grid-area: h;
+}
+.grid-text p span {
+    font-weight: 700;
+    font-size: 16px;
+    color: #192b59;
+}
+.grid-text p+p {
+    font-size: 14px;
+    color: #1085e4;
 }
 .grid h2 {
     font-size: 40px;
@@ -299,6 +311,43 @@ h1 {
 .grid-icon-6 {
     background-image: url(../img/icon6.png);
     background-size: 100px 87px;
+}
+.page-software-icon {
+    display: block;
+    background-image: url(../img/software-icon.png);
+    background-repeat: no-repeat;
+    background-position: -26px 24px;
+    width: 115px;
+    height: 84px;
+}
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+.page-software-flex>div {
+    flex-basis: 54%;
+}
+.page-software .title-h2 {
+    max-width: 700px;
+    margin-top: 43px;
+    margin-bottom: 27px;
+}
+.page-software-list {
+    margin-top: 30px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.page-software-list dt {
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 10px;
+}
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .list-stat {
     display: flex;
@@ -482,4 +531,7 @@ h1 {
 }
 .page-grid {
     padding: 83px 0 129px 0;
+}
+.page-software {
+    padding: 86px 0 127px 0;
 }
