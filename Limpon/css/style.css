@@ -359,6 +359,25 @@ h1 {
 .page-software-flex>div {
     flex-basis: 54%;
 }
+.software-image-flex {
+    display: block;
+    background-image: url(../img/software-image.png);
+    background-repeat: no-repeat;
+    background-position: -26px 24px;
+    width: 931px;
+    height: 868px;
+}
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
+.soft-image-first {
+     display: flex;
+    justify-content: flex-start;
+}
 .page-software .title-h2 {
     max-width: 700px;
     margin-top: 43px;
