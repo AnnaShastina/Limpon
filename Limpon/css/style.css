@@ -68,6 +68,13 @@ h1 {
 .content-app .title-h2 {
     margin-bottom: 36px;
 }
+.page-clients .title-40 {
+    color: #fff;
+}
+.page-clients .title-40 span {
+    color: #85c8ff;
+}
+
 .wrap {
     max-width: 1110px;
     margin: 0 auto;
@@ -621,10 +628,54 @@ p.page-control-text {
 .box-subscribe-user input:-moz-placeholder           {color:#b1c3ee;}
 .box-subscribe-user input:-ms-input-placeholder      {color:#b1c3ee;}
 
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+.box-clients-item {
+    background-color: #fff;
+    padding: 20px 42px;
+    border-radius: 10px;
+    flex-basis: 32%;
+    box-sizing: border-box;
+    font-size: 14px;
+    box-shadow: 0 0 5px #f4f4f4;
+    flex-basis: 31.5%;
+}
+.box-clients-item .name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000958;
+    margin-bottom: 0;
+    letter-spacing: -1.2px;
+    line-height: 1;
+}
+.box-clients-item .position {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1085e4;
+    margin-top: 0;
+    letter-spacing: 2.2px;
+}
+.box-clients-item>p {
+    margin-bottom: 5px;
+}
+.box-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box-info>div {
+    padding-left: 15px;
+}
+
 
 /* PAGE */
 .page-header {
     background-image: url(../img/header-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 55px 0 316px 0;
@@ -632,6 +683,7 @@ p.page-control-text {
 }
 .page-company {
     background-image: url(../img/sponsors-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
     padding: 95px 0 90px 0;
@@ -674,11 +726,9 @@ p.page-control-text {
 .page-app .wrap{
     position: relative;
 }
-.page-control .wrap{
-    position: relative;
-}
 .page-analytics {
     background-image: url(../img/bg-analytics.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 90px 0 135px 0;
@@ -690,4 +740,16 @@ p.page-control-text {
     padding: 90px 0px 146px 0;
     background-position: -69px -7px;
     margin-bottom: -7px;
+    background-position: center;
+}
+.page-control .wrap{
+    position: relative;
+}
+.page-clients {
+    background-image: url(../img/vector.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 61px 0 73px 0;
+    margin-top: 96px;
+    background-size: 90%;
 }
