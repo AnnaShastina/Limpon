@@ -367,17 +367,22 @@ h1 {
     width: 931px;
     height: 868px;
 }
-::-webkit-scrollbar { width: 3px; height: 3px;}
-::-webkit-scrollbar-button {  background-color: #666; }
-::-webkit-scrollbar-track {  background-color: #999;}
-::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
-::-webkit-scrollbar-corner { background-color: #999;}}
-::-webkit-resizer { background-color: #666;}
-.soft-image-first {
-     display: flex;
-    justify-content: flex-start;
+.software-pic {
+    display: block;
+    width: 937px;
+    height: 986px;
+    background-image: url(../img/software-pic.png);
+    background-size: 100% 100%;
+    background-position: 0 0;
+    position: absolute;
+    left: -20px;
+    bottom: -39px;
 }
+.page-software-list::-webkit-scrollbar { width: 4px; height: 4px;}
+.page-software-list::-webkit-scrollbar-button {  background-color: #1085e4; }
+.page-software-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+.page-software-list::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 10px;}
+
 .page-software .title-h2 {
     max-width: 700px;
     margin-top: 43px;
@@ -585,4 +590,6 @@ h1 {
 }
 .page-software {
     padding: 86px 0 127px 0;
+    position: relative;
+    overflow: hidden;
 }
