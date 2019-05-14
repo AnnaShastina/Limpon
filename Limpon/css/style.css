@@ -240,6 +240,32 @@ h1 {
 .grid-text {
     grid-area: h;
 }
+.grid p {
+    letter-spacing: 0.25px;
+}
+.grid-text p {
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.grid-text-p{
+    padding-left: 12px;
+}
+.grid-text-span{
+    padding-left: 18px;
+}
+.span-Rosalina {
+    font-weight: 800;
+    font-size: 16px;
+    color: #192b59;
+    letter-spacing: -0.3px;
+}
+.span-Founder {
+    letter-spacing: -0.7px;
+    font-size: 12px;
+    color: #1085e4;
+}
+/*
+
 .grid-text p span {
     font-weight: 700;
     font-size: 16px;
@@ -249,6 +275,7 @@ h1 {
     font-size: 14px;
     color: #1085e4;
 }
+*/
 .grid h2 {
     font-size: 40px;
     color: #192b59;
