@@ -372,11 +372,11 @@ h1 {
     width: 942px;
     height: 1457px;
     background-image: url(../img/software-pic.png);
-    background-size: 100% 100%;
-    background-position: 0 0;
+    background-position: -106px 490px;
     position: absolute;
     left: -20px;
     bottom: -39px;
+    background-repeat: no-repeat;
 }
 .page-software-list::-webkit-scrollbar { width: 4px; height: 4px;}
 .page-software-list::-webkit-scrollbar-button {  background-color: #1085e4; }
