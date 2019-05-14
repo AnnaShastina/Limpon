@@ -239,7 +239,8 @@ h1 {
 }
 .grid-text {
     grid-area: h;
-    padding: 47px 14px;
+    padding: 0px 14px;
+    margin-top: 50px;
 }
 .grid p {
     letter-spacing: 0.25px;
