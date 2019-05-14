@@ -348,7 +348,7 @@ h1 {
     background-image: url(../img/icon6.png);
     background-size: 100px 87px;
 }
-.page-software-icon {
+.settings-icon {
     display: block;
     background-image: url(../img/software-icon.png);
     background-repeat: no-repeat;
@@ -387,10 +387,15 @@ h1 {
 .page-software-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
 .page-software-list::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 10px;}
 
-.page-software .title-h2 {
+.page-software .title-h2, .page-analytics .title-h2 {
     max-width: 700px;
     margin-top: 43px;
     margin-bottom: 27px;
+}
+.page-control .title-h2 {
+    max-width: 421px;
+    margin-top: 43px;
+    margin-bottom: 38px;
 }
 .page-software-list {
     margin-top: 30px;
@@ -441,6 +446,39 @@ h1 {
 }
 .content-app {
     width: 55%;
+}
+a.video-app {
+    position: absolute;
+    top: -60px;
+    right: -130px;
+}
+.screen-control {
+    position: absolute;
+    top: 60px;
+    right: 58px
+}
+.flex-analytics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-analytics>div {
+    flex-basis: 54%;
+}
+p.page-analytics-text {
+    margin-bottom: 45px;
+}
+.flex-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-control>div {
+    flex-basis: 54%;
+}
+p.page-control-text {
+    margin-bottom: 47px;
+    margin-top: -13px;
 }
 .list-stat {
     display: flex;
@@ -631,6 +669,25 @@ h1 {
     overflow: hidden;
 }
 .page-app {
+    padding: 64px 0 95px 0;
+}
+.page-app .wrap{
     position: relative;
-    padding: 64px 0 25px 0;
+}
+.page-control .wrap{
+    position: relative;
+}
+.page-analytics {
+    background-image: url(../img/bg-analytics.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0 135px 0;
+}
+.page-control {
+    background-image: url(../img/bg-control.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0px 146px 0;
+    background-position: -69px -7px;
+    margin-bottom: -7px;
 }
