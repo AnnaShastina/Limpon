@@ -68,10 +68,10 @@ h1 {
 .content-app .title-h2 {
     margin-bottom: 36px;
 }
-.page-clients .title-40 {
+.page-clients .title-40, .page-team .title-40 {
     color: #fff;
 }
-.page-clients .title-40 span {
+.page-clients .title-40 .page-team .title-40 span {
     color: #85c8ff;
 }
 
@@ -516,6 +516,10 @@ p.page-control-text {
     display: flex;
     justify-content: space-between;
 }
+
+.box-price .btn-primary {
+    padding: 20px 60px;
+}
 .box-price-item {
     background-color: #edf4fb;
     flex-basis: 32%;
@@ -523,6 +527,11 @@ p.page-control-text {
     padding: 0 0 88px 0;
     margin: 50px 14px;
 }
+
+.box-price .btn-primary {
+    padding: 20px 60px;
+}
+    
 .box-price-item::after {
     content:"";
     width: 65px;
@@ -640,7 +649,7 @@ p.page-control-text {
     flex-basis: 32%;
     box-sizing: border-box;
     font-size: 14px;
-    box-shadow: 0 0 5px #f4f4f4;
+    box-shadow: 0 5px 6px #f4f4f4;
     flex-basis: 31.5%;
 }
 .box-clients-item .name {
@@ -669,6 +678,57 @@ p.page-control-text {
 }
 .box-info>div {
     padding-left: 15px;
+}
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.box-team-item {
+    background-color: #fff;
+    flex-basis: 31.5%;
+    box-shadow: 0 5px 6px #f4f4f4;
+    position: relative;
+    padding: 224px 0px 111px 0px;
+}
+.box-team-item .position {
+    font-size: 14px;
+    font-weight: 900;
+    color: #1a88e1;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.box-team-item .name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #192b59; 
+    margin-top: 6px;
+    letter-spacing: -0.5px;
+}
+
+.box-team-item .avatar {
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-more {
+    display: block;
+    width: 60px;
+    height: 58px;
+    margin: 0 auto;
+    background-image: url(../img/btn-more.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.box-team-item .btn-more:focus {
+    outline: none;
 }
 
 
@@ -752,4 +812,14 @@ p.page-control-text {
     padding: 61px 0 73px 0;
     margin-top: 96px;
     background-size: 90%;
+}
+.page-team {
+    text-align: center;
+    background-image: url(../img/bg-team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 97px 0 20px 0;
+}
+.page-plan {
+    padding: 20px 0 65px 0;
 }
