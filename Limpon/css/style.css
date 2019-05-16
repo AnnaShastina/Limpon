@@ -517,9 +517,6 @@ p.page-control-text {
     justify-content: space-between;
 }
 
-.box-price .btn-primary {
-    padding: 20px 60px;
-}
 .box-price-item {
     background-color: #edf4fb;
     flex-basis: 32%;
